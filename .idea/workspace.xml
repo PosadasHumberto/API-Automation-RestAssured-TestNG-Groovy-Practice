@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d91f4f3-6814-4b10-9d3c-0030fe29d571" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/hposadas/Tests/TestNGEjemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/Base.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/Books.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/article.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/book.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/booksSchema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/hposadas/Tests/TestNGEjemplo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,7 +57,7 @@
       <recent name="D:\Formaciones\Udemy\API Automation\proyectos\TestNGPractice\src\test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Books">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="GroovyRestAssuredTestNGPractice" />
       <method v="2">
@@ -70,6 +71,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Books" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GroovyRestAssuredTestNGPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Books.booksSchemaIsValid" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GroovyRestAssuredTestNGPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <option name="METHOD_NAME" value="booksSchemaIsValid" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Books.createAndDeleteBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GroovyRestAssuredTestNGPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <option name="METHOD_NAME" value="createAndDeleteBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Books.deleteNonExistingBook_FailMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GroovyRestAssuredTestNGPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <option name="METHOD_NAME" value="deleteNonExistingBook_FailMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Books.getBooksList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GroovyRestAssuredTestNGPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <option name="METHOD_NAME" value="getBooksList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Books" />
+        <item itemvalue="TestNG.Books.deleteNonExistingBook_FailMessage" />
+        <item itemvalue="TestNG.Books.createAndDeleteBook" />
+        <item itemvalue="TestNG.Books.booksSchemaIsValid" />
+        <item itemvalue="TestNG.Books.getBooksList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686831403102</updated>
-      <workItem from="1686831406604" duration="2647000" />
+      <workItem from="1686831406604" duration="14651000" />
     </task>
     <servers />
   </component>
