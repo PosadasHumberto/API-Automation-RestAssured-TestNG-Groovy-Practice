@@ -1,4 +1,6 @@
-import io.restassured.response.Response;
+
+
+import io.restassured.response.Response
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,7 +9,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 class Books extends Base {
 
-    @Test       //validando que existan libros
+    @Test(groups = "GetGroup")       //validando que existan libros
     void getBooksList() {
         Response response = given()
         .log().all()
@@ -18,7 +20,7 @@ class Books extends Base {
 
     }
 
-    @Test       //Validando que el esquema es valido
+    @Test(groups = "GetGroup")       //Validando que el esquema es valido
     void booksSchemaIsValid() {
         given()
         .log().all()
@@ -28,9 +30,9 @@ class Books extends Base {
         .body(matchesJsonSchemaInClasspath("booksSchema.json"));    //este esquema debe ser dado por los desarrolladores de la aplicacion para que podamos hacer los tests.
     }
 
-    @Test       //validando la creacion y supresion de un Book
+    @Test(groups = "PostGroup")       //validando la creacion y supresion de un Book
     void createAndDeleteBook() {
-        File bookFile = new File(getClass().getResource("book.json").toURI())
+        File bookFile = new File(getClass().getResource("/book.json").toURI())
 
         Response createResponse = given()
         .body(bookFile)
@@ -51,7 +53,7 @@ class Books extends Base {
 
     }
 
-    @Test
+    @Test(groups = "PostGroup")
     void deleteNonExistingBook_FailMessage() {
         String nonExistentBookID = "456123"
 

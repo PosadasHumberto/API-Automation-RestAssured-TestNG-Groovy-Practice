@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d91f4f3-6814-4b10-9d3c-0030fe29d571" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/Base.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/Books.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/article.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/booksSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/hposadas/Tests/TestNGEjemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/Base.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/Base.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/Books.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/Books.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +47,22 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs.jest.jest_package": "",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Formaciones\Udemy\API Automation\proyectos\TestNGPractice\src\test\resources" />
       <recent name="D:\Formaciones\Udemy\API Automation\proyectos\TestNGPractice\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Books">
@@ -67,6 +75,17 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="GroovyRestAssuredTestNGPractice" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Books" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GroovyRestAssuredTestNGPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,25 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Books.getBooksList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GroovyRestAssuredTestNGPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Books" />
-      <option name="METHOD_NAME" value="getBooksList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Books" />
+        <item itemvalue="TestNG.Books (1)" />
         <item itemvalue="TestNG.Books.deleteNonExistingBook_FailMessage" />
         <item itemvalue="TestNG.Books.createAndDeleteBook" />
         <item itemvalue="TestNG.Books.booksSchemaIsValid" />
-        <item itemvalue="TestNG.Books.getBooksList" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686831403102</updated>
-      <workItem from="1686831406604" duration="14651000" />
+      <workItem from="1686831406604" duration="28692000" />
     </task>
     <servers />
   </component>
